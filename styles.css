@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.static {
+    position:static;
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+    margin-top: 25px
+}
+
+.top-of-relative {
+    position: static;
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+}
+
+.relative {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    z-index: 10;
+}
+
+.absolute-child {
+    position: absolute;
+    color: aliceblue;
+    top: 0;
+    left: 0;
+}

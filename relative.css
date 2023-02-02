@@ -1,0 +1,75 @@
+.relative-parent {
+    position: relative;
+    border: 5px solid chocolate;
+    width: 550px;
+    height: 450px;
+}
+
+.absolute-child-1 {
+    position: absolute;
+    background-color: darkcyan;
+    width: 50px;
+    height: 50px;
+    top:0;
+    left: 0;
+}
+
+.absolute-child-2 {
+    position: absolute;
+    background-color: darkcyan;
+    width: 50px;
+    height: 50px;
+    top: 30%;
+    right: -25px;
+}
+
+.absolute-child-3 {
+    position: absolute;
+    background-color: darkcyan;
+    width: 50px;
+    height: 50px;
+    bottom: 5px;
+    left: 10px;
+}
+
+
+/* nav styles */
+
+.fixed-nav {
+    position: fixed;
+    background-color: darkolivegreen;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    list-style-type: none;
+
+}
+
+ul > li {
+    margin-left: 5%;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.parent-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.parent-div > div {
+    background-color: darkcyan;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}

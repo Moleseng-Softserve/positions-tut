@@ -1,0 +1,59 @@
+.sticky-parent {
+    margin: 0;
+    height: 250px;
+}
+
+.sticky {
+    background-color: blanchedalmond;
+    display: inline-block;
+    position: -webkit-sticky;
+    position: sticky;
+    height: 20px;
+    width: 100%;
+    top: 5rem;
+
+}
+
+
+
+/* nav styles */
+
+.fixed-nav {
+    position: fixed;
+    background-color: darkolivegreen;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    list-style-type: none;
+
+}
+
+ul > li {
+    margin-left: 5%;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.parent-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.parent-div > div {
+    background-color: darkcyan;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
